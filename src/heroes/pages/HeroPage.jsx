@@ -24,7 +24,7 @@ export const HeroPage = () => {
                 <img 
                 src={`/assets/heroes/${id}.jpg`}
                 alt={hero.superhero}
-                className='img-thumbnail' />
+                className='img-thumbnail rounded' />
             </div>
             <div className="col-8 animate__animated animate__slideInRight">
                 <h3>{hero.superhero}</h3>

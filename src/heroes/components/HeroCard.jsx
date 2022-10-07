@@ -14,7 +14,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance
                 <div className="row no-gutters align-items-center">
                     
                     <div className="col-4 ">
-                        <img src={heroImage} alt={superhero} className='card-img' />
+                        <img src={heroImage} alt={superhero} className='card-img h-25' />
                     </div>
 
                     <div className="col-8">
